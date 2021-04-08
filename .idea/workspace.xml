@@ -1,10 +1,352 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81d1d474-aa15-40d4-ad95-40eda58ab6bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v01/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v01/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v01/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v01/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v01/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v01/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v02/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v02/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v02/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v02/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v02/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v02/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v03/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v03/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v03/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v03/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v03/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v03/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v04/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v04/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v04/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v04/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v04/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v04/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v05/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v05/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v05/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v05/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v05/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v05/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v06/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v06/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v06/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v06/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v06/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v06/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v07/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v07/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v07/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v07/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v07/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v07/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v08/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v08/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v08/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v08/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v08/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v08/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v09/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v09/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v09/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v09/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v09/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v09/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v10/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v10/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v10/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v10/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v10/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v10/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v11/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v11/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v11/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v11/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v11/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v11/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v12/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v12/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v12/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v12/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v12/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v12/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/ChildrenPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/ChildrenPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/NewReleasePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/NewReleasePrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/RegularPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/RegularPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v13/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/ChildrenPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/ChildrenPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/NewReleasePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/NewReleasePrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/RegularPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/RegularPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v14/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/ChildrenPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/ChildrenPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/NewReleasePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/NewReleasePrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/RegularPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/RegularPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v15/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/ChildrenPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/ChildrenPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/NewReleasePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/NewReleasePrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/RegularPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/RegularPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v16/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/ChildrenPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/ChildrenPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/NewReleasePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/NewReleasePrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/RegularPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/RegularPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v17/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/ChildrenPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/ChildrenPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/NewReleasePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/NewReleasePrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/RegularPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/RegularPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v18/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/ChildrenPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/ChildrenPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/NewReleasePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/NewReleasePrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/RegularPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/RegularPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v19/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/ChildrenPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/ChildrenPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/NewReleasePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/NewReleasePrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/RegularPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/RegularPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v20/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/ChildrenPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/ChildrenPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/NewReleasePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/NewReleasePrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/RegularPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/RegularPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/usantatecla/movies/v21/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/StatementBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/MovieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/MovieBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/RentalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/RentalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/StatementBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/StatementBuilder.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectId" id="1qtN8kzF7UTUMdNjr5TqWP6pSFX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="usantatecla.movies.v22 in movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usantatecla.movies.v22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usantatecla.movies.v22" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.usantatecla.movies.v22 in movies" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81d1d474-aa15-40d4-ad95-40eda58ab6bd" name="Default Changelist" comment="" />
+      <created>1617894769812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617894769812</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1617894820204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617894820204</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1617895751462">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1617895751462" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1617895222664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617895222664" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1617895222664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617895222664" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1617895222664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617895222664" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1617895222664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617895222664" />
   </component>
 </project>
