@@ -22,15 +22,103 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81d1d474-aa15-40d4-ad95-40eda58ab6bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v01/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v02/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v03/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v04/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v05/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v06/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v07/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v08/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v09/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v10/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v11/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v12/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v13/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v14/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v15/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v16/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v17/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v18/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v19/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v20/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v21/RentalBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v22/CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v22/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v22/MovieBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v22/RentalBuilder.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +142,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.usantatecla.movies.v23 in movies">
+  <component name="RunManager" selected="JUnit.usantatecla.movies.v24 in movies">
     <configuration name="usantatecla.movies.v22 in movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movies" />
       <extension name="coverage">
@@ -85,8 +174,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="usantatecla.movies.v24 in movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usantatecla.movies.v24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usantatecla.movies.v24" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.usantatecla.movies.v24 in movies" />
         <item itemvalue="JUnit.usantatecla.movies.v23 in movies" />
         <item itemvalue="JUnit.usantatecla.movies.v22 in movies" />
       </list>
@@ -115,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617896814809</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactor v23 Remove Customer dependency with Movie + Rename each to rental in statement method of Customer">
+      <created>1617897418719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617897418719</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,7 +240,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -144,28 +255,33 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Refactor v22 Eliminate duplication of the while structure in several methods the Customer class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor v22 Eliminate duplication of the while structure in several methods the Customer class" />
+    <MESSAGE value="Refactor v23 Remove Customer dependency with Movie + Rename each to rental in statement method of Customer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor v23 Remove Customer dependency with Movie + Rename each to rental in statement method of Customer" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617898757667">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1617898757667" />
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1617895751462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1617895751462" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1617896828394">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1617897715099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617896828394" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1617896828393">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617897715099" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1617897715099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617896828393" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1617896828393">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617897715099" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1617897715099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617896828393" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1617896828394">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617897715099" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1617897715099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617896828394" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617897715099" />
   </component>
 </project>
