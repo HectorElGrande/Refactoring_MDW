@@ -1,41 +1,50 @@
 package usantatecla.movies.v25;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class StatementBuilder {
-
-	final static String CUSTOMER_NAME_MESSAGE = "Rental Record for ";
-	final static String TOTAL_AMOUNT_MESSAGE = "Amount owed is ";
-	final static String FREQUENT_RENTER_POINTS_FIRST_MESSAGE = "You earned ";
-	final static String FREQUENT_RENTER_POINTS_SECOND_MESSAGE = " frequent renter points";
-
-	private String result;
+	
+	private String customerName;
+	private List<String> movieNames;
+	private List<Double> amounts;
+	private double totalAmount = 0;
+	private int frequentRenterPoints = 0;
 	
 	public StatementBuilder() {
-		this.result = "";
+		movieNames = new ArrayList<String>();
+		amounts = new ArrayList<Double>();
 	}
 	
 	public StatementBuilder customerName(String customerName) {
-		this.result += CUSTOMER_NAME_MESSAGE + customerName + "\n";
+		this.customerName = customerName;
 		return this;
 	}
 	
 	public StatementBuilder movie(String movieName, double amount) {
-			this.result += "\t" + movieName + "\t" + amount + "\n";
+		movieNames.add(movieName);
+		amounts.add(amount);
 		return this;
 	}
 	
 	public StatementBuilder totalAmount(double totalAmount) {
-		this.result += TOTAL_AMOUNT_MESSAGE + totalAmount + "\n";
+		this.totalAmount = totalAmount;
 		return this;
 	} 
 	
 	public StatementBuilder frequentRenterPoints(int frequentRenterPoints) {
-		this.result += FREQUENT_RENTER_POINTS_FIRST_MESSAGE + frequentRenterPoints
-				+ FREQUENT_RENTER_POINTS_SECOND_MESSAGE;
+		this.frequentRenterPoints = frequentRenterPoints;
 		return this;
 	}
 	
 	public String build() {
-		return this.result;
+		String result = "Rental Record for " + customerName + "\n";
+		for(int i=0; i<movieNames.size(); i++) {
+			result += "\t" + movieNames.get(i) + "\t" + amounts.get(i) + "\n";
+		}
+		result += "Amount owed is " + totalAmount + "\n";
+		result += "You earned " + frequentRenterPoints + " frequent renter points";
+		return result;
 	}
 	
 

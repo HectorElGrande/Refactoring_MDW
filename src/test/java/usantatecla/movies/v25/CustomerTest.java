@@ -4,21 +4,26 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
+import usantatecla.movies.v24.StatementBuilder;
 
 public class CustomerTest {
 
 	final String customerName = "customerName";
 	final String movieName = "movieName";
-	private Movie regularMovie1;
-	private Rental rental1;
-	private Customer customer1;
-	
+	private String statement1;
+	private String statement2;
+
 	@Before
 	public void before(){
-		this.regularMovie1 = new RegularMovie(this.movieName);
-		this.rental1 = new RentalBuilder().movie(regularMovie1).daysRented(1).build();
-		this.customer1 = new CustomerBuilder().name(this.customerName).rental(rental1).build();
-		
+		Movie regularMovie = new RegularMovie(this.movieName);
+
+		Rental rental1 = new RentalBuilder().movie(regularMovie).daysRented(1).build();
+		Customer customer1 = new CustomerBuilder().name(this.customerName).rental(rental1).build();
+		this.statement1 = customer1.statement();
+
+		Rental rental2 = new RentalBuilder().movie(regularMovie).daysRented(2).build();
+		Customer customer2 = new CustomerBuilder().name(this.customerName).rental(rental2).build();
+		this.statement2 = customer2.statement();
 		
 	}
 
@@ -34,51 +39,60 @@ public class CustomerTest {
 	}
 
 	@Test
-	public void regularRental1DayCustomerNameTest() {
-		String customerNameStatement = StatementBuilder.CUSTOMER_NAME_MESSAGE + this.customer1.getName() + "\n";
+	public void regularRental1DayTest() {
+		String result = new StatementBuilder().customerName(customerName).movie(movieName, 2)
+				.totalAmount(2).frequentRenterPoints(1).build();
 
-		String result = new StatementBuilder().customerName(this.customerName).build();
-		assertEquals(result, customerNameStatement);
+		assertEquals(result, this.statement1);
 	}
 
 	@Test
-	public void regularRental1DayMovieNameTest() {
-		String movieStatement = "\t" + this.regularMovie1.getTitle() + "\t" + this.rental1.getCharge() + "\n";;
+	public void regularRental1DayCustomerNameTest() {
+		String customerName = new StatementDeserializer(this.statement1).getCustomerName();
 
-		String result = new StatementBuilder().movie(this.movieName, 2).build();
-		assertEquals(result, movieStatement);
+		assertEquals(this.customerName, customerName);
+	}
+
+	@Test
+	public void regularRental1DayMovieNameAndMovieChargeTest() {
+		String movieName = new StatementDeserializer(this.statement1).getMovies();
+
+		assertEquals(this.movieName + "2.0", movieName);
 	}
 
 	@Test
 	public void regularRental1DayTotalAmountTest() {
-		String totalAmountStatement = StatementBuilder.TOTAL_AMOUNT_MESSAGE + this.rental1.getCharge() + "\n";
+		String totalAmount = new StatementDeserializer(this.statement1).getTotalAmount();
 
-		String result = new StatementBuilder().totalAmount(2).build();
-		assertEquals(result, totalAmountStatement);
+		assertEquals("2.0", totalAmount);
 	}
 
 	@Test
 	public void regularRental1DayFrequentRenterPointsTest() {
-		String FrequentRenterPointsStatement = StatementBuilder.FREQUENT_RENTER_POINTS_FIRST_MESSAGE +
-				this.rental1.getFrequentRenterPoints() + StatementBuilder.FREQUENT_RENTER_POINTS_SECOND_MESSAGE;
+		String frequentRenterPoints = new StatementDeserializer(this.statement1).getFrequentRenterPoints();
 
-		String result = new StatementBuilder().frequentRenterPoints(1).build();
-		assertEquals(result, FrequentRenterPointsStatement);
+		assertEquals("1", frequentRenterPoints);
 	}
-	
+
 	@Test
 	public void regularRental2DayTest() {
-		String movieName = "movieName";
-		Movie movie = new RegularMovie(movieName);
-		Rental rental = new RentalBuilder().movie(movie).daysRented(2).build();
-		String customerName = "customerName";
-		Customer customer = new CustomerBuilder().name(customerName).rental(rental).build();
-
-		String statement = customer.statement();
-
 		String result = new StatementBuilder().customerName(customerName).movie(movieName, 2)
 				.totalAmount(2).frequentRenterPoints(1).build();
-		assertEquals(result, statement);
+		assertEquals(result, this.statement2);
+	}
+
+	@Test
+	public void regularRental2DayTotalAmountTest() {
+		String totalAmount = new StatementDeserializer(this.statement2).getTotalAmount();
+
+		assertEquals("2.0", totalAmount);
+	}
+
+	@Test
+	public void regularRental2DayFrequentRenterPointsTest() {
+		String frequentRenterPoints = new StatementDeserializer(this.statement2).getFrequentRenterPoints();
+
+		assertEquals("1", frequentRenterPoints);
 	}
 
 	@Test
