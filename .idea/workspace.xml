@@ -29,10 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81d1d474-aa15-40d4-ad95-40eda58ab6bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v25/StatementDeserializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v25/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v25/CustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v25/StatementBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v25/StatementBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +39,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1qtN8kzF7UTUMdNjr5TqWP6pSFX" />
   <component name="ProjectViewState">
@@ -80,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.newReleaseRental2DayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.rentalFrequentRenterPointsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movies" />
       <extension name="coverage">
         <pattern>
@@ -90,13 +81,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="usantatecla.movies.v25" />
       <option name="MAIN_CLASS_NAME" value="usantatecla.movies.v25.CustomerTest" />
-      <option name="METHOD_NAME" value="newReleaseRental2DayTest" />
+      <option name="METHOD_NAME" value="rentalFrequentRenterPointsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.regularRental2DayFrequentRenterPointsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.rentalMovieNameAndMovieChargeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movies" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +97,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="usantatecla.movies.v25" />
       <option name="MAIN_CLASS_NAME" value="usantatecla.movies.v25.CustomerTest" />
-      <option name="METHOD_NAME" value="regularRental2DayFrequentRenterPointsTest" />
+      <option name="METHOD_NAME" value="rentalMovieNameAndMovieChargeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.regularRental2DayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.rentalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movies" />
       <extension name="coverage">
         <pattern>
@@ -122,13 +113,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="usantatecla.movies.v25" />
       <option name="MAIN_CLASS_NAME" value="usantatecla.movies.v25.CustomerTest" />
-      <option name="METHOD_NAME" value="regularRental2DayTest" />
+      <option name="METHOD_NAME" value="rentalTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.regularRental2DayTotalAmountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.rentalTotalAmountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movies" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +129,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="usantatecla.movies.v25" />
       <option name="MAIN_CLASS_NAME" value="usantatecla.movies.v25.CustomerTest" />
-      <option name="METHOD_NAME" value="regularRental2DayTotalAmountTest" />
+      <option name="METHOD_NAME" value="rentalTotalAmountTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="JUnit.CustomerTest.regularRental2DayTotalAmountTest" />
-        <item itemvalue="JUnit.CustomerTest.regularRental2DayTest" />
-        <item itemvalue="JUnit.CustomerTest.regularRental2DayFrequentRenterPointsTest" />
-        <item itemvalue="JUnit.CustomerTest.newReleaseRental2DayTest" />
+        <item itemvalue="JUnit.CustomerTest.rentalTotalAmountTest" />
+        <item itemvalue="JUnit.CustomerTest.rentalFrequentRenterPointsTest" />
+        <item itemvalue="JUnit.CustomerTest.rentalMovieNameAndMovieChargeTest" />
+        <item itemvalue="JUnit.CustomerTest.rentalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +214,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
@@ -231,62 +223,5 @@
     <MESSAGE value="Refactor v24 Collapse the Price class and its derivatives as part of the responsibility of Movie and its new derivatives" />
     <MESSAGE value="Refactor v25 In CustomerTest, divide into cohesive tests: one for charge, one for frequent points, one for format, ... (Part 1)" />
     <option name="LAST_COMMIT_MESSAGE" value="Refactor v25 In CustomerTest, divide into cohesive tests: one for charge, one for frequent points, one for format, ... (Part 1)" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1618051835277">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1618051835277" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617898757667">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1617898757667" />
-    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1617895751462">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1617895751462" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1618051530581">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618051530581" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1618051530581">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618051530581" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1618051530581">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618051530581" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1618051530581">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618051530581" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1618051531207">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618051531207" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1618051531207">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1618051531207" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1618051531207">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1618051531207" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1618051531207">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1618051531207" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/usantatecla/movies/v25/RegularMovie.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
