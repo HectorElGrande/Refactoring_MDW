@@ -29,12 +29,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81d1d474-aa15-40d4-ad95-40eda58ab6bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerChildrenRentalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerNewReleaseRentalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerRegularRentalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerWithoutRentalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v25/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usantatecla/movies/v25/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerChildrenRentalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerChildrenRentalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerNewReleaseRentalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerNewReleaseRentalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerRegularRentalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerRegularRentalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerSomeDifferentRentalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerSomeDifferentRentalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerWithoutRentalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/usantatecla/movies/v26/CustomerWithoutRentalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

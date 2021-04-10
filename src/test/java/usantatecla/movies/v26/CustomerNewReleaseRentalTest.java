@@ -11,25 +11,25 @@ public class CustomerNewReleaseRentalTest {
     final String customerName = "customerName";
     final String movieName = "movieName";
 
-    private String statement4;
-    private String statement5;
-    private String statement6;
+    private String oneDayStatement;
+    private String twoDaysStatement;
+    private String threeDaysStatement;
 
     @Before
     public void before() {
         Movie newReleaseMovie = new NewReleaseMovie(movieName);
 
-        Rental rental4 = new RentalBuilder().movie(newReleaseMovie).daysRented(1).build();
-        Customer customer4 = new CustomerBuilder().name(customerName).rental(rental4).build();
-        this.statement4 = customer4.statement();
+        Rental oneDayRental = new RentalBuilder().movie(newReleaseMovie).daysRented(1).build();
+        Customer oneDayCustomer = new CustomerBuilder().name(customerName).rental(oneDayRental).build();
+        this.oneDayStatement = oneDayCustomer.statement();
 
-        Rental rental5 = new RentalBuilder().movie(newReleaseMovie).daysRented(2).build();
-        Customer customer5 = new CustomerBuilder().name(customerName).rental(rental5).build();
-        this.statement5 = customer5.statement();
+        Rental twoDaysRental = new RentalBuilder().movie(newReleaseMovie).daysRented(2).build();
+        Customer twoDaysCustomer = new CustomerBuilder().name(customerName).rental(twoDaysRental).build();
+        this.twoDaysStatement = twoDaysCustomer.statement();
 
-        Rental rental6 = new RentalBuilder().movie(newReleaseMovie).daysRented(3).build();
-        Customer customer6 = new CustomerBuilder().name(customerName).rental(rental6).build();
-        this.statement6 = customer6.statement();
+        Rental threeDaysRental = new RentalBuilder().movie(newReleaseMovie).daysRented(3).build();
+        Customer threeDaysCustomer = new CustomerBuilder().name(customerName).rental(threeDaysRental).build();
+        this.threeDaysStatement = threeDaysCustomer.statement();
     }
 
     @Test
@@ -37,19 +37,19 @@ public class CustomerNewReleaseRentalTest {
         String result = new usantatecla.movies.v24.StatementBuilder().customerName(customerName).movie(movieName, 3)
                 .totalAmount(3).frequentRenterPoints(1).build();
 
-        assertEquals(result, this.statement4);
+        assertEquals(result, this.oneDayStatement);
     }
 
     @Test
     public void newReleaseRental1DayTotalAmountTest() {
-        String totalAmount = new StatementDeserializer(this.statement4).getTotalAmount();
+        String totalAmount = new StatementDeserializer(this.oneDayStatement).getTotalAmount();
 
         assertEquals("3.0", totalAmount);
     }
 
     @Test
     public void newReleaseRental1DayFrequentRenterPointsTest() {
-        String frequentRenterPoints = new StatementDeserializer(this.statement4).getFrequentRenterPoints();
+        String frequentRenterPoints = new StatementDeserializer(this.oneDayStatement).getFrequentRenterPoints();
 
         assertEquals("1", frequentRenterPoints);
     }
@@ -59,12 +59,12 @@ public class CustomerNewReleaseRentalTest {
         String result = new usantatecla.movies.v24.StatementBuilder().customerName(customerName).movie(movieName, 3)
                 .totalAmount(3).frequentRenterPoints(2).build();
 
-        assertEquals(result, this.statement5);
+        assertEquals(result, this.twoDaysStatement);
     }
 
     @Test
     public void newReleaseRental2DayFrequentRenterPointsTest() {
-        String frequentRenterPoints = new StatementDeserializer(this.statement5).getFrequentRenterPoints();
+        String frequentRenterPoints = new StatementDeserializer(this.twoDaysStatement).getFrequentRenterPoints();
 
         assertEquals("2", frequentRenterPoints);
     }
@@ -74,12 +74,12 @@ public class CustomerNewReleaseRentalTest {
         String result = new StatementBuilder().customerName(customerName).movie(movieName, 3)
                 .totalAmount(3).frequentRenterPoints(2).build();
 
-        assertEquals(result, this.statement6);
+        assertEquals(result, this.threeDaysStatement);
     }
 
     @Test
     public void newReleaseRental3DayFrequentRenterPointsTest() {
-        String frequentRenterPoints = new StatementDeserializer(this.statement6).getFrequentRenterPoints();
+        String frequentRenterPoints = new StatementDeserializer(this.threeDaysStatement).getFrequentRenterPoints();
 
         assertEquals("2", frequentRenterPoints);
     }

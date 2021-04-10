@@ -10,12 +10,12 @@ public class CustomerWithoutRentalTest {
 
     final String customerName = "customerName";
 
-    private String statement0;
+    private String statement;
 
     @Before
     public void before() {
-        Customer customer0 = new CustomerBuilder().name(this.customerName).build();
-        this.statement0 = customer0.statement();
+        Customer customer = new CustomerBuilder().name(this.customerName).build();
+        this.statement = customer.statement();
     }
 
     @Test
@@ -23,26 +23,26 @@ public class CustomerWithoutRentalTest {
         String result = new StatementBuilder().customerName(this.customerName)
                 .totalAmount(0).frequentRenterPoints(0).build();
 
-        assertEquals(result, this.statement0);
+        assertEquals(result, this.statement);
     }
 
     @Test
     public void withoutRentalsCustomerNameTest() {
-        String customerName = new StatementDeserializer(this.statement0).getCustomerName();
+        String customerName = new StatementDeserializer(this.statement).getCustomerName();
 
         assertEquals(this.customerName, customerName);
     }
 
     @Test
     public void withoutRentalsTotalAmountTest() {
-        String totalAmount = new StatementDeserializer(this.statement0).getTotalAmount();
+        String totalAmount = new StatementDeserializer(this.statement).getTotalAmount();
 
         assertEquals("0.0", totalAmount);
     }
 
     @Test
     public void withoutRentalsFrequentRenterPointsTest() {
-        String frequentRenterPoints = new StatementDeserializer(this.statement0).getFrequentRenterPoints();
+        String frequentRenterPoints = new StatementDeserializer(this.statement).getFrequentRenterPoints();
 
         assertEquals("0", frequentRenterPoints);
     }
